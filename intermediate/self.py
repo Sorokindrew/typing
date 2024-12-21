@@ -10,4 +10,4 @@ T = typing.TypeVar('T')
 
 class Foo:
     def return_self(self: T) -> T:
-        ...
+        return self
